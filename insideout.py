@@ -1,4 +1,3 @@
-from turtle import up
 import pandas as pd
 import streamlit as st
 
@@ -54,4 +53,3 @@ if uploaded_file is not None:
     date = st.date_input("Date:")
 
     st.write(by_employee_by_date(employee, date, data))
-
